@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class AttendanceManager {
+public class AttendanceManager implements Manage<Student> {
     private ArrayList<Student> students = new ArrayList<>();
 
     public void add(Student item){
